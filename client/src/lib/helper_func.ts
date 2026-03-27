@@ -4,6 +4,7 @@ export const stripHtml = (html: string) => {
 }
 
 export const parseTime = (time: string) => {
+  if (!time) return ''
   const dateTime = new Date(time)
   return dateTime.toLocaleDateString("en-UK", {
     year: "numeric",
