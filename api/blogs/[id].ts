@@ -1,4 +1,4 @@
-import { supabase } from '../../client/src/lib/supabase.ts'
+import { supabase } from '../../client/src/lib/supabase'
 
 
 export default async function handler(req:any, res:any) {

@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="835384fb-7de7-45ea-9a9d-500a28aa6357" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/janni.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/blogs/[id].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/blogs/blogs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/blogCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/featuredCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/database.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/helper_func.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/lib/supabase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Admin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Create.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Explore.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/prose.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/tiptap/Extentions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/tiptap/commands.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grounds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lib/supabase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/blog.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
-    </list>
+    <list default="true" id="835384fb-7de7-45ea-9a9d-500a28aa6357" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DerrickWawerumuturi/Janni.git",
+    "accountId": "449cf2fb-e476-45f6-83d2-62e17b5b7727"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -103,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774298093990</updated>
       <workItem from="1774298094958" duration="73770000" />
-      <workItem from="1774613074850" duration="917000" />
+      <workItem from="1774613074850" duration="1218000" />
     </task>
     <servers />
   </component>
