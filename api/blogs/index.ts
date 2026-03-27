@@ -1,9 +1,9 @@
-import {supabase} from "../../client/src/lib/supabase";
+import { db } from '../../lib/supabase'
 
 export default async function handler(req: any, res:any) {
   // GET all blogs
   if (req.method === 'GET') {
-    const { data, error } = await supabase
+    const { data, error } = await db
       .from('blogs')
       .select('*')
       .order('created_at', { ascending: false })
@@ -22,7 +22,7 @@ export default async function handler(req: any, res:any) {
     }
 
     const { data: userData, error: userError } =
-      await supabase.auth.getUser(token)
+      await db.auth.getUser(token)
 
     if (!userData?.user) {
       return res.status(401).json({ error: 'Invalid token' })
@@ -32,7 +32,7 @@ export default async function handler(req: any, res:any) {
 
     const { title, content, image_url } = req.body
 
-    const { data, error } = await supabase
+    const { data, error } = await db
       .from('blogs')
       .insert({ title, content, image_url })
       .select()

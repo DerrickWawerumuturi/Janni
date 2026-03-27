@@ -1,4 +1,4 @@
-import { supabase } from '../../client/src/lib/supabase'
+import { db } from '../../lib/supabase'
 
 
 export default async function handler(req:any, res:any) {
@@ -6,7 +6,7 @@ export default async function handler(req:any, res:any) {
 
   // GET one blog
   if (req.method === 'GET') {
-    const { data, error } = await supabase
+    const { data, error } = await db
       .from('blogs')
       .select('*')
       .eq('id', id)
@@ -25,7 +25,7 @@ export default async function handler(req:any, res:any) {
       return res.status(401).json({ error: 'Unauthorized' })
     }
 
-    const { data: userData } = await supabase.auth.getUser(token)
+    const { data: userData } = await db.auth.getUser(token)
 
     if (!userData?.user) {
       return res.status(401).json({ error: 'Invalid token' })
@@ -33,7 +33,7 @@ export default async function handler(req:any, res:any) {
 
     const { title, content, image_url } = req.body
 
-    const { data, error } = await supabase
+    const { data, error } = await db
       .from('blogs')
       .update({
         title,
