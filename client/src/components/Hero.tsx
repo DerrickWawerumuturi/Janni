@@ -16,7 +16,6 @@ const Hero = () => {
     const fetchBlogs =  async () => {
       try {
         const blogs = await getAllBlogs()
-        console.log('Fetching blogs...', blogs)
         setBlogs(blogs)
       } catch (e) {
         console.error(e)
