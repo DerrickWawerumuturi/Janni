@@ -2,6 +2,10 @@
   "framework": "vite",
   "buildCommand": "cd client && npm run build",
   "outputDirectory": "client/dist",
-  "devCommand": "cd client && vite",
-  "installCommand": "cd client && npm install"
+  "installCommand": "cd client && npm install",
+
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
 }
