@@ -18,7 +18,7 @@ const BlogDetail = () => {
       console.log('Fetching blog...')
       try {
         const data = await getBlog(Number(id))
-        console.log("Single blog:", blog)
+        console.log("Single blog:", data)
         setBlog(data)
       } catch (e) {
         console.error(e)

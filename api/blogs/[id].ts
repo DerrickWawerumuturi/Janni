@@ -40,7 +40,7 @@ export default async function handler(req:any, res:any) {
         content,
         ...(image_url && { image_url }),
       })
-      .eq('id', id)
+      .eq('id', Number(id))
       .select()
 
     if (error) return res.status(500).json({ error })
