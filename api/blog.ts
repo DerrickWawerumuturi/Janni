@@ -1,4 +1,4 @@
-import { db } from '../../lib/supabase'
+import { db } from '../lib/supabase'
 
 
 export default async function handler(req:any, res:any) {
