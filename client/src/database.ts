@@ -8,7 +8,7 @@ export const getAllBlogs = async (): Promise<Blog[]> => {
 }
 
 export const getBlog = async (id: number) => {
-  const res = await api.get(`/blogs/${id}`)
+  const res = await api.get(`/blog?id=${id}`)
   return res.data
 }
 
