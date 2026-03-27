@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="835384fb-7de7-45ea-9a9d-500a28aa6357" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/janni.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/blogs/[id].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/blogs/blogs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/blogCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/featuredCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/lib/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/lib/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/lib/helper_func.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/lib/supabase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Admin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Create.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Explore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/prose.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/tiptap/Extentions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/tiptap/commands.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grounds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/lib/supabase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/blog.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3BMTlkQo4h5TKnk60Y1r1igsq3U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/derrick/WebstormProjects/janni/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/derrick/WebstormProjects/janni/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/src/lib" />
+      <recent name="$PROJECT_DIR$/server/lib" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="835384fb-7de7-45ea-9a9d-500a28aa6357" name="Changes" comment="" />
+      <created>1774298093990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774298093990</updated>
+      <workItem from="1774298094958" duration="73770000" />
+      <workItem from="1774613074850" duration="917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

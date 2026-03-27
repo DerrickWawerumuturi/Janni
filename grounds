@@ -1,0 +1,40 @@
+client
+
+// to-do list
+1. in the near future, add a loop on top before blogs on home page to show the 'popular/recent' blogs
+2. Add rulers on the edges of the view port (looks neat, eg safari inspect bar)
+
+
+// get started
+1. First i will pick fonts to use (2)
+
+Font -> Space grotesk => done
+
+2. Set up the editor, we are trying out tip-tap... => done
+
+
+3.  work on the editor -> functionality, like the menu bar, UI => done
+
+4. test the editor -> done
+
+
+
+ISSUES
+
+MAJOR
+1. Fix ui on small devices
+3. Create button is only visible for me only
+
+MINOR
+problem 1: code block does seem to work properly
+problems 3: enable adding images in the content
+problem 4: Keep the post visible onscroll
+
+FUTURE IMPROVEMENTS
+problem 1: create a major links list # for main parts of the blog
+
+
+
+
+
+
