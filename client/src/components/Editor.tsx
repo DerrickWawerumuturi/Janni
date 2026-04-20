@@ -36,7 +36,6 @@ const Tiptap = ({
   })
 
   useEffect(() => {
-    if (editor && content) {
       if (!editor) return;
 
       const current = editor.getHTML();
@@ -44,8 +43,6 @@ const Tiptap = ({
       if (current !== content) {
         editor.commands.setContent(content)
       }
-
-    }
   }, [content, editor])
 
   const providerValue = useMemo(() => ({ editor }), [editor])
