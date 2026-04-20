@@ -8,7 +8,7 @@ import TaskList from '@tiptap/extension-task-list'
 import TaskItem from '@tiptap/extension-task-item'
 import HorizontalRule from '@tiptap/extension-horizontal-rule'
 import { bubbleCommands } from '../tiptap/commands.ts'
-// import { useEffect } from 'react'
+import { useEffect } from 'react'
 
 const Tiptap = ({
   onChange,
@@ -35,18 +35,18 @@ const Tiptap = ({
     },
   })
 
-  // useEffect(() => {
-  //   if (editor && content) {
-  //     if (!editor) return;
-  //
-  //     const current = editor.getHTML();
-  //
-  //     if (current !== content) {
-  //       editor.commands.setContent(content)
-  //     }
-  //
-  //   }
-  // }, [content, editor])
+  useEffect(() => {
+    if (editor && content) {
+      if (!editor) return;
+
+      const current = editor.getHTML();
+
+      if (current !== content) {
+        editor.commands.setContent(content)
+      }
+
+    }
+  }, [content, editor])
 
   const providerValue = useMemo(() => ({ editor }), [editor])
 
