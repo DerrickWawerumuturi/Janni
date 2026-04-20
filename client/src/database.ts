@@ -61,12 +61,35 @@ export const updateBlog = async (id: number, data: any, file?: File | null) => {
 
     image_url = publicUrl.publicUrl
   }
+  const {data: { session },} = await supabase.auth.getSession()
 
-  const res = await api.put(`/blog?id=${id}`, {
-    title: data.title,
-    content: data.content,
-    image_url,
-  })
+  const token = session?.access_token
+
+  const res = await api.put(
+
+      `/blog?id=${id}`,
+
+      {
+
+        title: data.title,
+
+        content: data.content,
+
+        image_url,
+
+      },
+
+      {
+
+        headers: {
+
+          Authorization: `Bearer ${token}`,
+
+        },
+
+      }
+
+  )
 
   return res.data
 }
