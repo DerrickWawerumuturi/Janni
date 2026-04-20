@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835384fb-7de7-45ea-9a9d-500a28aa6357" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api/blogs/[id].ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/blogs/blog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/src/lib" />
-      <recent name="$PROJECT_DIR$/server/lib" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -84,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774298093990</updated>
       <workItem from="1774298094958" duration="73770000" />
-      <workItem from="1774613074850" duration="3467000" />
+      <workItem from="1774613074850" duration="11155000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@ export const slashCommand = Extension.create({
             char: '/',
             allow: () => true,
             startOfLine: false,
-            allowSpaces: true,
+            allowSpaces: false,
 
             command: ({ editor, range, props }: any) => {
               console.log('RUNNING COMMAND')
