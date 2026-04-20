@@ -62,7 +62,7 @@ export const updateBlog = async (id: number, data: any, file?: File | null) => {
     image_url = publicUrl.publicUrl
   }
 
-  const res = await api.put(`/blogs/${id}`, {
+  const res = await api.put(`/blog?id=${id}`, {
     title: data.title,
     content: data.content,
     image_url,
