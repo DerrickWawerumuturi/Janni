@@ -40,9 +40,10 @@ const Tiptap = ({
 
       const current = editor.getHTML();
 
-      if (current !== content) {
-        editor.commands.setContent(content)
-      }
+    if (content !== undefined && current !== content) {
+      editor.commands.setContent(content || "")
+
+    }
   }, [content, editor])
 
   const providerValue = useMemo(() => ({ editor }), [editor])
